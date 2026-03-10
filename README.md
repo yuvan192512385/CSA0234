@@ -1,0 +1,16 @@
+# CSA0234
+C programming for adding two numbers
+#include <stdio.h>
+
+int main() {
+    int a, b, sum;
+
+    printf("Enter 1,2: ");
+    scanf("%d,%d", &a, &b);
+
+    sum = a + b;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
